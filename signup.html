@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Toledo Jamz. Your local music connection!</title>
+		<meta name="description" content="Toledo's Local Music Connection">
+		<meta name="author" content="Alyssa Spencer">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<link href='http://fonts.googleapis.com/css?family=Indie+Flower|Exo:400,900' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<header id="header">
+			<div id="logo">
+				<a href="index.html#about_us"><img src ="images/logo.jpg" alt="Toledo Jamz..." title="Toledo's local music connection!"/></a>
+			</div> 
+			<div id="slogan">
+				<h2>Toledo's Local Music at Your Fingertips...</h2>
+			</div>
+			
+			<div id="login">														
+				<form name="login" action="index.html" method="post">
+					<fieldset>
+						<legend>Sign-In</legend>
+						<label for="username">Username:</label>
+						<input type="text" name="username" id="username" placeholder="Username"/>
+						<label for="password">Password</label>
+						<input type="password" name="password" id="password"/>
+						<span>
+							<a href="forgot_username.html">Forgot Username / Password?</a>
+						</span>						
+						<input type="submit" name="login_submit" value="Login" />
+					</fieldset>
+				</form>
+			</div>
+			<div class="clearFloat"></div>
+		</header>					
+		<div id="top_nav">	
+			<nav>
+				<ul>
+					<li><a href="aboutus.html" title="About Us">About Us</a></li>						
+					<li><a href="signup.html" title="Sign Up">Sign Up</a></li>
+					<li><a href="upcomingshows.html" title="Upcoming Shows">Upcoming Shows</a></li>
+					<li><a href="gallery.html" title="Gallery">Gallery</a></li>
+					<li><a href="musicianswanted.html" title="Musicians Wanted">Musicians Wanted</a></li>
+					<li><a href="banddirectory.html" title="Band Directory">Band Directory</a></li>
+				</ul>
+			</nav>
+		</div>
+		<section id="sign_up" class="page_section">
+			<div id="musician_container"><img src="images/musician.jpg" alt="Musician" title="It's fast, easy, and FREE!"/></div>
+			<p class="left">Signing up is easy, just fill out the form below to get started! Once you have signed up, you can create your profile, build your Press Kit and Fan Page, or you can just start browsing and posting to our forum. It's your site, you make it what you want it!</p>
+			<h1>Sign-Up</h1>
+			<h2>It's easy, and it's <em>FREE!</em></h2>	
+			<div id="form_container" class="rounded dropshadow">
+				<form name="sign_up" action="sign_up.php" method="post">
+					<label for="name">Name:</label>
+					<input type="text" name="name" id="name" placeholder="ex. John Smith"/>
+					<label for="email">Email:</label>
+					<input type="text" name="email" id="email" placeholder="ex. John@gmail.com"/>
+					<label for="customer_type">I am a:</label>
+					<select name="customer_type">
+						<option selected="selected" value="Musician">Musician</option>
+						<option value="Music Fan">Music Fan</option>
+						<option value="Promoter">Promoter</option>
+					</select>
+					<label for="sign_up_username">Desired Username:</label>
+					<input type="text" name="sign_up_username" id="sign_up_username" placeholder="ex. AxeShredder"/>
+					<label for="sign_up_password">Password:</label>
+					<input type="password" name="sign_up_password" id="sign_up_password"/>
+					<label for="password_verify">Re-Enter Password:</label>
+					<input type="password" name="password_verify" id="password_verify"/>
+					<label for="newsletter">Receive our Newsletter:</label>
+					<input type="checkbox" checked="checked" name="newsletter" id="newsletter"/>
+					<input type="submit" name="sign_up_submit" value="Sign Up" />
+				</form>
+			</div>
+			<aside class="rounded dropshadow">
+				<p>Be sure to sign up for our newsletter when you fill out the form. Our weekly newsletter gives you access to "inside information" including give aways from your favorite bands, and great information on other promotions available in your area.</p> 
+			</aside>
+			<div id="singer_container"><img src="images/singer.jpg" alt="Female Vocalist." title="Get connected..."/></div>
+		</section>
+		<footer>
+			<nav>
+				<ul>
+					<li><a href="aboutus.html" title="About Us">About Us</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+					<li><a href="signup.html" title="Sign Up">Sign Up</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+					<li><a href="upcomingshows.html" title="Upcoming Shows">Upcoming Shows</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+					<li><a href="gallery.html" title="Gallery">Gallery</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+					<li><a href="musicianswanted.html" title="Musicians Wanted">Musicians Wanted</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+					<li><a href="banddirectory.html" title="Band Directory">Band Directory</a></li>
+				</ul>
+			</nav>
+		</footer> 
+		</body>
+		</html>
