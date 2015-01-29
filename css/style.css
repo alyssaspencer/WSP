@@ -65,6 +65,9 @@ img {
 }
 
 .rotate:hover {
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
 }
 
 h1, h2, h3 {
@@ -739,6 +742,7 @@ footer ul li a:hover {
 
 	footer nav ul {
 		display: none;
+		hover: yellow;
 	}
 
 	#band_directory table {

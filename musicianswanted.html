@@ -58,6 +58,18 @@
 			</header>
 			<div id="musicians_wanted">
 				<p class="left">Is that pesky drummer still not showing up to rehearsal? Don't buy a drum machine, just look here! New to the Toledo area and looking to jam? This is the place to find your next band! Sign up to see who needs help, and who is available!</p>
+				<p> Fill out the form below for bands to help find their choice musician!</p>
+
+			<form name="jamming" action="musicians" method="post">
+					<label for="name">Name:</label>
+					<input type="text" name="name" id="name" placeholder="ex. John Smith"/>
+					<label for="email">Email:</label>
+					<input type="text" name="email" id="email" placeholder="ex. John@gmail.com"/>
+					<label for="customer_type">I am a:</label>
+					<input type="text" name="instrument" id="instrument" placeholder="ex. Guitarist"/>
+					<input type="submit" name="musician_submit" value="Let's Rock Out!"/>
+				</form>
+
 			</div>
 			<footer>
 			<nav>

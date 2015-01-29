@@ -14,7 +14,7 @@ time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;ve
 /* HTML5 display-role reset for older browsers */
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section{display:block;}
-body{line-height:1;color:#ffffff;background:#000 url('../images/black_leather.jpg') top left repeat fixed;}
+body{line-height:1;color:#ffffff;background:#000 url('../images/black_leather.jpg') top left no-repeat fixed;}
 ul{list-style:none;}
 ol{text-align:justify;}
 blockquote,q{quotes:none;}
@@ -122,8 +122,8 @@ footer{width:100%;position:absolute;bottom:0;padding:.5% 0;background:rgba(0,0,0
 footer span{color:rgba(255,255,255,.7);}
 footer ul{float:right;margin-right:2%;}
 footer ul li{display:inline;}
-footer ul li a{color:rgba(150,150,150,.9);text-decoration:none;}
-footer ul li a:hover{color:rgba(255,255,255,1);}
+footer ul li a{color:rgba(150,150,150,.9);text-decoration:underline;}
+footer ul li a:hover{color:yellow;text-shadow:green 4px;}
 /***************************
 Non-semantic effects
 ***************************/
@@ -189,7 +189,7 @@ p.left,p.right{margin-top:2%;}
 #gallery_container{display:none;}
 table{font-size:1em;margin-bottom:4%;}
 footer{font-size:.8em;}
-footer nav ul{display:none;}
+footer nav ul{display:none; hover:yellow;}
 table{width:90%;}
 #band_directory table{margin-top:5%;}
 }
